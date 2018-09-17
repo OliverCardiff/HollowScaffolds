@@ -1,7 +1,9 @@
 # HollowScaffolds
 Rewrites Genome Scaffolds with Ns via 2-MA coverage intersect
 
-[Core Algorithm](double_rmean.png)
+This adopts the double rolling mean fragmentation method for read-coverage-fragmenting scaffolds, and instead replaces characters between fragmentation points with Ns.
+
+![Core Algorithm Summary](https://github.com/OliverCardiff/HollowScaffolds/blob/master/double_rmean.png)
 
 Usage:
 
